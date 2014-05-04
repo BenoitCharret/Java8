@@ -11,7 +11,7 @@ public class App {
 
     public static void main(String[] args) {
         Doubler toto = (int n) -> {
-            return n * 4;
+            return n * 2;
         };
 
         JeFaisDesTrucs titi;

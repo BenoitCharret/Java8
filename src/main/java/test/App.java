@@ -14,13 +14,12 @@ public class App {
             return n * 5;
         };
 
-        JeFaisDesTrucs titi;
-        titi = () -> {
+        SomethingToDo titi = () -> {
             System.out.println("I am doing something cool");
             return;
         };
 
-        System.out.println("Hello World! " + toto.atTwices(30));
+        System.out.println("Hello World! " + toto.addDouble(30));
         titi.doSomething();
 
         List<String> strings = Arrays.asList("hello", "world", "!");
@@ -29,10 +28,10 @@ public class App {
     }
 
     public interface Doubler {
-        int atTwices(int n);
+        int addDouble(int n);
     }
 
-    public interface JeFaisDesTrucs {
+    public interface SomethingToDo {
         void doSomething();
     }
 }

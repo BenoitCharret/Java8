@@ -11,6 +11,7 @@ public class App {
 
     public static void main(String[] args) {
         Doubler toto = (int n) -> {
+		// ok
             return n * 5;
         };
 
